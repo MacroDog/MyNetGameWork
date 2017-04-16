@@ -3,20 +3,26 @@ using System.Collections;
 
 public class Weapon : MonoBehaviour {
 
-    public float heart
+    public float Damage;
+    public float damage
     {
-        get;
-        protected set;
+        get
+        {
+            return Damage;
+        }
+        protected set
+        {
+            Damage = value;
+        }
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    /// <summary>
+    /// 武器类攻击
+    /// </summary>
+    protected virtual void Attack()
+    {
+
+    }
      
 }
