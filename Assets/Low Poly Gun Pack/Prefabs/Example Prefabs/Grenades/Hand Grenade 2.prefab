@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &136892
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 445418}
+  - component: {fileID: 3374332}
+  - component: {fileID: 2367346}
+  m_Layer: 0
+  m_Name: Hand Grenade 2 Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 433910}
+  - component: {fileID: 11187346}
+  m_Layer: 0
+  m_Name: Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &182372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 453462}
+  - component: {fileID: 11480032}
+  - component: {fileID: 8231614}
+  - component: {fileID: 8233754}
+  m_Layer: 0
+  m_Name: Hand Grenade 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143236}
+  m_LocalRotation: {x: 0, y: 0.9914449, z: 0, w: 0.130526}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 445418}
+  m_Father: {fileID: 453462}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &445418
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &453462
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_Children:
+  - {fileID: 433910}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2367346
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136892}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e11c4f3ee458bf446918382a2f5f9451, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3374332
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136892}
+  m_Mesh: {fileID: 4300000, guid: 134dcad97bcbb364bbdd746ad796b314, type: 3}
+--- !u!82 &8231614
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182372}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 36584c9624f0ddd41a1ffa2b0d8d6bd4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 200
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &8233754
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182372}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7387bd1916d45ea4cb67ec572229b96d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 200
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!111 &11187346
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143236}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: afb254c05bf24664c92bd1236ceed9cf, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &11480032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e66b00cd097f5a4aaac7d2447f4f728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletsLeft: 0
+  casingSpawnPoint: {fileID: 0}
+  casingPrefab: {fileID: 0}
+  magSpawnPoint: {fileID: 0}
+  emptyMagPrefab: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  metalImpactStaticPrefab: {fileID: 0}
+  metalImpactPrefab: {fileID: 0}
+  woodImpactStaticPrefab: {fileID: 0}
+  woodImpactPrefab: {fileID: 0}
+  concreteImpactStaticPrefab: {fileID: 0}
+  concreteImpactPrefab: {fileID: 0}
+  dirtImpactStaticPrefab: {fileID: 0}
+  dirtImpactPrefab: {fileID: 0}
+  metalImpactStaticTag: Metal (Static)
+  metalImpactTag: Metal
+  woodImpactStaticTag: Wood (Static)
+  woodImpactTag: Wood
+  concreteImpactStaticTag: Concrete (Static)
+  concreteImpactTag: Concrete
+  dirtImpactStaticTag: Dirt (Static)
+  dirtImpactTag: Dirt
+  magazineSize: 1
+  muzzleFlashDuration: 0.02
+  fireRate: 0
+  reloadDuration: 1.5
+  lightIntensity: 2
+  lightRange: 10
+  bulletDistance: 150
+  bulletForce: 15
+  grenadeThrowForce: 3250
+  minimumGrenadeRotation: 25
+  maximumGrenadeRotation: 250
+  WeaponType:
+    handgun: 0
+    handgunSilencer: 0
+    dualHandguns: 0
+    sniper: 0
+    sniperSilencer: 0
+    sniper3: 0
+    sniper6: 0
+    smg: 0
+    smgSilencer: 0
+    assaultRifle: 0
+    assaultRifle2: 0
+    assaultRifleSilencer: 0
+    assaultRifleSilencer2: 0
+    machineGun: 0
+    shotgun: 0
+    rpg: 0
+    sawnOffShotgun: 0
+    revolver1: 0
+    revolver2: 0
+    grenadeLauncher: 0
+    handGrenade: 1
+    minigun: 0
+    flamethrower: 0
+  Animations:
+    fullMagInAnim: 
+    recoilAnim: 
+    reloadAnim: 
+    slideReloadAnim: 
+    slideEjectAnim: 
+    reloadDownAnim: 
+    reloadUpAnim: 
+    reloadSlideCloseAnim: 
+    reloadSlideOpenAnim: 
+    blowbackAnim: 
+    fullAmmoAnim: 
+    outOfAmmoAnim: 
+    bulletInAnim: 
+    shotgunSlideBackAnim: 
+    shotgunSlideForwardAnim: 
+    sawnOffShotgunAmmoOneInAnim: 
+    sawnOffShotgunAmmoTwoInAnim: 
+    machineGunBulletHolderAnim: 
+    machineGunSphereRotateAnim: 
+  Components:
+    sideMuzzle: {fileID: 0}
+    topMuzzle: {fileID: 0}
+    frontMuzzle: {fileID: 0}
+    muzzleflashSideSprites: []
+    holder: {fileID: 143236}
+    slider: {fileID: 0}
+    ejectSlider: {fileID: 0}
+    mag: {fileID: 0}
+    fullMag: {fileID: 0}
+    bullet: {fileID: 0}
+    barrels: {fileID: 0}
+    shotgunAmmo1: {fileID: 0}
+    shotgunAmmo2: {fileID: 0}
+    ammo1: {fileID: 0}
+    ammo2: {fileID: 0}
+    casingSpawnPoint1: {fileID: 0}
+    casingSpawnPoint2: {fileID: 0}
+    machineGunTop: {fileID: 0}
+    bulletHolderAnim: {fileID: 0}
+    bullets: []
+    bulletSpawnpoints: []
+    bulletPrefab: {fileID: 0}
+    sphereRotate: {fileID: 0}
+    lightFlash: {fileID: 0}
+    smokeParticles: {fileID: 0}
+    sparkParticles: {fileID: 0}
+    projectile: {fileID: 0}
+    projectilePrefab: {fileID: 0}
+    projectileSpawnPoint: {fileID: 0}
+    smokeParticlesBack: {fileID: 0}
+    rpgLightBack: {fileID: 0}
+    holderRight: {fileID: 0}
+    sliderRight: {fileID: 0}
+    magRight: {fileID: 0}
+    fullMagRight: {fileID: 0}
+    bulletSpawnPointRight: {fileID: 0}
+    lightFlashRight: {fileID: 0}
+    smokeParticlesRight: {fileID: 0}
+    casingSpawnPointRight: {fileID: 0}
+    magSpawnPointRight: {fileID: 0}
+    sideMuzzleRight: {fileID: 0}
+    topMuzzleRight: {fileID: 0}
+    frontMuzzleRight: {fileID: 0}
+    revolverBullets: []
+    revolverCasingSpawnpoints: []
+    handGrenadePrefab: {fileID: 132646, guid: fd8d37ffc0db0b544b4bfe8c6acd6554, type: 2}
+    bulletTracerParticles: {fileID: 0}
+    flameParticles: {fileID: 0}
+  AudioSources:
+    shootSound: {fileID: 8231614}
+    mainReloadSound: {fileID: 8233754}
+    sliderReloadSound: {fileID: 0}
+    sliderSound: {fileID: 0}
+    removeMagSound: {fileID: 0}
+    insertMagSound: {fileID: 0}
+    outOfAmmoClickSound: {fileID: 0}
+    reloadOpenSound: {fileID: 0}
+    reloadCloseSound: {fileID: 0}
+    shotgunPumpSound: {fileID: 0}
+    shellInsertSound: {fileID: 0}
+    minigunSpinLoopSound: {fileID: 0}
+    minigunSpinUpSound: {fileID: 0}
+    minigunSpinDownSound: {fileID: 0}
+    minigunSpinUpDownSource: {fileID: 0}
+  noSwitch: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 182372}
+  m_IsPrefabParent: 1

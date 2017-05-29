@@ -1,0 +1,1164 @@
+fileFormatVersion: 2
+guid: 72e5b331d0d3470418ac1574d4d3a849
+timeCreated: 1493458432
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ar_2_mag
+    100002: ar_2_main
+    100004: ar_2_reload_slider
+    100006: ar_2_slider
+    100008: ar_2_slider_eject
+    100010: Base_mesh
+    100012: Body_jnt
+    100014: //RootNode
+    100016: Female_mesh
+    100018: FemaleMedic_mesh
+    100020: Foot_Left_jnt
+    100022: Foot_Right_jnt
+    100024: GasMask_mesh
+    100026: group1
+    100028: Hand_Left_jnt
+    100030: Hand_Right_jnt
+    100032: Hat_jnt
+    100034: Head_jnt
+    100036: Hips_jnt
+    100038: JungleCommando_mesh
+    100040: LowerArm_Left_jnt
+    100042: LowerArm_Right_jnt
+    100044: LowerLeg_Left_jnt
+    100046: LowerLeg_Right_jnt
+    100048: Medic_mesh
+    100050: Mercenary_mesh
+    100052: Officer_mesh
+    100054: Pilot_mesh
+    100056: Root_jnt
+    100058: SimpleMilitary
+    100060: Soldier_01_mesh
+    100062: Soldier_02_mesh
+    100064: Soldier_03_mesh
+    100066: SpecialForces_01_mesh
+    100068: SpecialForces_02_mesh
+    100070: SpecialForces_03_mesh
+    100072: SpecialForces_04_mesh
+    100074: Spine_jnt
+    100076: Terrorist_01_mesh
+    100078: Terrorist_02_mesh
+    100080: Terrorist_03_mesh
+    100082: UpperArm_Left_jnt
+    100084: UpperArm_Right_jnt
+    100086: UpperLeg_Left_jnt
+    100088: UpperLeg_Right_jnt
+    400000: ar_2_mag
+    400002: ar_2_main
+    400004: ar_2_reload_slider
+    400006: ar_2_slider
+    400008: ar_2_slider_eject
+    400010: Base_mesh
+    400012: Body_jnt
+    400014: //RootNode
+    400016: Female_mesh
+    400018: FemaleMedic_mesh
+    400020: Foot_Left_jnt
+    400022: Foot_Right_jnt
+    400024: GasMask_mesh
+    400026: group1
+    400028: Hand_Left_jnt
+    400030: Hand_Right_jnt
+    400032: Hat_jnt
+    400034: Head_jnt
+    400036: Hips_jnt
+    400038: JungleCommando_mesh
+    400040: LowerArm_Left_jnt
+    400042: LowerArm_Right_jnt
+    400044: LowerLeg_Left_jnt
+    400046: LowerLeg_Right_jnt
+    400048: Medic_mesh
+    400050: Mercenary_mesh
+    400052: Officer_mesh
+    400054: Pilot_mesh
+    400056: Root_jnt
+    400058: SimpleMilitary
+    400060: Soldier_01_mesh
+    400062: Soldier_02_mesh
+    400064: Soldier_03_mesh
+    400066: SpecialForces_01_mesh
+    400068: SpecialForces_02_mesh
+    400070: SpecialForces_03_mesh
+    400072: SpecialForces_04_mesh
+    400074: Spine_jnt
+    400076: Terrorist_01_mesh
+    400078: Terrorist_02_mesh
+    400080: Terrorist_03_mesh
+    400082: UpperArm_Left_jnt
+    400084: UpperArm_Right_jnt
+    400086: UpperLeg_Left_jnt
+    400088: UpperLeg_Right_jnt
+    2300000: ar_2_mag
+    2300002: ar_2_main
+    2300004: ar_2_reload_slider
+    2300006: ar_2_slider
+    2300008: ar_2_slider_eject
+    3300000: ar_2_mag
+    3300002: ar_2_main
+    3300004: ar_2_reload_slider
+    3300006: ar_2_slider
+    3300008: ar_2_slider_eject
+    4300000: Base_mesh
+    4300002: Terrorist_03_mesh
+    4300004: Terrorist_02_mesh
+    4300006: Terrorist_01_mesh
+    4300008: Female_mesh
+    4300010: JungleCommando_mesh
+    4300012: FemaleMedic_mesh
+    4300014: GasMask_mesh
+    4300016: SpecialForces_04_mesh
+    4300018: SpecialForces_03_mesh
+    4300020: SpecialForces_02_mesh
+    4300022: SpecialForces_01_mesh
+    4300024: Pilot_mesh
+    4300026: Mercenary_mesh
+    4300028: Officer_mesh
+    4300030: Soldier_03_mesh
+    4300032: Soldier_02_mesh
+    4300034: Soldier_01_mesh
+    4300036: Medic_mesh
+    4300038: ar_2_reload_slider
+    4300040: ar_2_main
+    4300042: ar_2_slider
+    4300044: ar_2_slider_eject
+    4300046: ar_2_mag
+    7400000: idle
+    7400002: rifle
+    7400004: Run
+    7400006: HandeGun
+    7400008: crouch
+    9500000: //RootNode
+    13700000: Base_mesh
+    13700002: Female_mesh
+    13700004: FemaleMedic_mesh
+    13700006: GasMask_mesh
+    13700008: JungleCommando_mesh
+    13700010: Medic_mesh
+    13700012: Mercenary_mesh
+    13700014: Officer_mesh
+    13700016: Pilot_mesh
+    13700018: Soldier_01_mesh
+    13700020: Soldier_02_mesh
+    13700022: Soldier_03_mesh
+    13700024: SpecialForces_01_mesh
+    13700026: SpecialForces_02_mesh
+    13700028: SpecialForces_03_mesh
+    13700030: SpecialForces_04_mesh
+    13700032: Terrorist_01_mesh
+    13700034: Terrorist_02_mesh
+    13700036: Terrorist_03_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Spine_jnt' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/ar_2_mag
+        weight: 1
+      - path: group1/ar_2_main
+        weight: 1
+      - path: group1/ar_2_reload_slider
+        weight: 1
+      - path: group1/ar_2_slider
+        weight: 1
+      - path: group1/ar_2_slider_eject
+        weight: 1
+      - path: SimpleMilitary
+        weight: 1
+      - path: SimpleMilitary/Base_mesh
+        weight: 1
+      - path: SimpleMilitary/Female_mesh
+        weight: 1
+      - path: SimpleMilitary/FemaleMedic_mesh
+        weight: 1
+      - path: SimpleMilitary/GasMask_mesh
+        weight: 1
+      - path: SimpleMilitary/JungleCommando_mesh
+        weight: 1
+      - path: SimpleMilitary/Medic_mesh
+        weight: 1
+      - path: SimpleMilitary/Mercenary_mesh
+        weight: 1
+      - path: SimpleMilitary/Officer_mesh
+        weight: 1
+      - path: SimpleMilitary/Pilot_mesh
+        weight: 1
+      - path: SimpleMilitary/Root_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt/Hat_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt/Hand_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt/Hand_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt/Foot_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt/Foot_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Soldier_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_01_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_02_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_04_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_03_mesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rifle
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/ar_2_mag
+        weight: 1
+      - path: group1/ar_2_main
+        weight: 1
+      - path: group1/ar_2_reload_slider
+        weight: 1
+      - path: group1/ar_2_slider
+        weight: 1
+      - path: group1/ar_2_slider_eject
+        weight: 1
+      - path: SimpleMilitary
+        weight: 1
+      - path: SimpleMilitary/Base_mesh
+        weight: 1
+      - path: SimpleMilitary/Female_mesh
+        weight: 1
+      - path: SimpleMilitary/FemaleMedic_mesh
+        weight: 1
+      - path: SimpleMilitary/GasMask_mesh
+        weight: 1
+      - path: SimpleMilitary/JungleCommando_mesh
+        weight: 1
+      - path: SimpleMilitary/Medic_mesh
+        weight: 1
+      - path: SimpleMilitary/Mercenary_mesh
+        weight: 1
+      - path: SimpleMilitary/Officer_mesh
+        weight: 1
+      - path: SimpleMilitary/Pilot_mesh
+        weight: 1
+      - path: SimpleMilitary/Root_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt/Hat_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt/Hand_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt/Hand_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt/Foot_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt/Foot_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Soldier_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_01_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_02_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_04_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_03_mesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/ar_2_mag
+        weight: 1
+      - path: group1/ar_2_main
+        weight: 1
+      - path: group1/ar_2_reload_slider
+        weight: 1
+      - path: group1/ar_2_slider
+        weight: 1
+      - path: group1/ar_2_slider_eject
+        weight: 1
+      - path: SimpleMilitary
+        weight: 1
+      - path: SimpleMilitary/Base_mesh
+        weight: 1
+      - path: SimpleMilitary/Female_mesh
+        weight: 1
+      - path: SimpleMilitary/FemaleMedic_mesh
+        weight: 1
+      - path: SimpleMilitary/GasMask_mesh
+        weight: 1
+      - path: SimpleMilitary/JungleCommando_mesh
+        weight: 1
+      - path: SimpleMilitary/Medic_mesh
+        weight: 1
+      - path: SimpleMilitary/Mercenary_mesh
+        weight: 1
+      - path: SimpleMilitary/Officer_mesh
+        weight: 1
+      - path: SimpleMilitary/Pilot_mesh
+        weight: 1
+      - path: SimpleMilitary/Root_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt/Hat_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt/Hand_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt/Hand_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt/Foot_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt/Foot_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Soldier_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_01_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_02_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_04_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_03_mesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HandeGun
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/ar_2_mag
+        weight: 1
+      - path: group1/ar_2_main
+        weight: 1
+      - path: group1/ar_2_reload_slider
+        weight: 1
+      - path: group1/ar_2_slider
+        weight: 1
+      - path: group1/ar_2_slider_eject
+        weight: 1
+      - path: SimpleMilitary
+        weight: 1
+      - path: SimpleMilitary/Base_mesh
+        weight: 1
+      - path: SimpleMilitary/Female_mesh
+        weight: 1
+      - path: SimpleMilitary/FemaleMedic_mesh
+        weight: 1
+      - path: SimpleMilitary/GasMask_mesh
+        weight: 1
+      - path: SimpleMilitary/JungleCommando_mesh
+        weight: 1
+      - path: SimpleMilitary/Medic_mesh
+        weight: 1
+      - path: SimpleMilitary/Mercenary_mesh
+        weight: 1
+      - path: SimpleMilitary/Officer_mesh
+        weight: 1
+      - path: SimpleMilitary/Pilot_mesh
+        weight: 1
+      - path: SimpleMilitary/Root_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt/Hat_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt/Hand_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt/Hand_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt/Foot_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt/Foot_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Soldier_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Soldier_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_01_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_02_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_03_mesh
+        weight: 1
+      - path: SimpleMilitary/SpecialForces_04_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_01_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_02_mesh
+        weight: 1
+      - path: SimpleMilitary/Terrorist_03_mesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouch
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 0
+      - path: group1/ar_2_mag
+        weight: 0
+      - path: group1/ar_2_main
+        weight: 0
+      - path: group1/ar_2_reload_slider
+        weight: 0
+      - path: group1/ar_2_slider
+        weight: 0
+      - path: group1/ar_2_slider_eject
+        weight: 0
+      - path: SimpleMilitary
+        weight: 1
+      - path: SimpleMilitary/Base_mesh
+        weight: 0
+      - path: SimpleMilitary/Female_mesh
+        weight: 0
+      - path: SimpleMilitary/FemaleMedic_mesh
+        weight: 0
+      - path: SimpleMilitary/GasMask_mesh
+        weight: 0
+      - path: SimpleMilitary/JungleCommando_mesh
+        weight: 0
+      - path: SimpleMilitary/Medic_mesh
+        weight: 0
+      - path: SimpleMilitary/Mercenary_mesh
+        weight: 0
+      - path: SimpleMilitary/Officer_mesh
+        weight: 0
+      - path: SimpleMilitary/Pilot_mesh
+        weight: 0
+      - path: SimpleMilitary/Root_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/Head_jnt/Hat_jnt
+        weight: 0
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Left_jnt/LowerArm_Left_jnt/Hand_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/Body_jnt/Spine_jnt/UpperArm_Right_jnt/LowerArm_Right_jnt/Hand_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Left_jnt/LowerLeg_Left_jnt/Foot_Left_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Root_jnt/Hips_jnt/UpperLeg_Right_jnt/LowerLeg_Right_jnt/Foot_Right_jnt
+        weight: 1
+      - path: SimpleMilitary/Soldier_01_mesh
+        weight: 0
+      - path: SimpleMilitary/Soldier_02_mesh
+        weight: 0
+      - path: SimpleMilitary/Soldier_03_mesh
+        weight: 0
+      - path: SimpleMilitary/SpecialForces_01_mesh
+        weight: 0
+      - path: SimpleMilitary/SpecialForces_02_mesh
+        weight: 0
+      - path: SimpleMilitary/SpecialForces_03_mesh
+        weight: 0
+      - path: SimpleMilitary/SpecialForces_04_mesh
+        weight: 0
+      - path: SimpleMilitary/Terrorist_01_mesh
+        weight: 0
+      - path: SimpleMilitary/Terrorist_02_mesh
+        weight: 0
+      - path: SimpleMilitary/Terrorist_03_mesh
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hips_jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_Left_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_Right_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_Left_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_Right_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_Left_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_Right_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Body_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_Left_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_Right_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_Left_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_Right_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_Left_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_Right_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Character01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group1
+      parentName: Character01(Clone)
+      position: {x: 0.61067754, y: 1.8707314, z: 0.45992708}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 0.05, y: 0.05, z: 0.05}
+    - name: ar_2_mag
+      parentName: group1
+      position: {x: -0.012331216, y: -0.20680627, z: -1.3693002}
+      rotation: {x: 7.058955e-12, y: 1, z: -0.0000018099951, w: 0.0000036517765}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: ar_2_main
+      parentName: group1
+      position: {x: 0.6595925, y: 4.0000014, z: -0.16388859}
+      rotation: {x: 0.00000006328754, y: 0.9993888, z: -0.0000018088884, w: -0.034958288}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: ar_2_reload_slider
+      parentName: group1
+      position: {x: -0.012331216, y: 5.8468924, z: 4.544798}
+      rotation: {x: 7.058955e-12, y: 1, z: -0.0000018099951, w: 0.0000036517765}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: ar_2_slider
+      parentName: group1
+      position: {x: -0.5662366, y: 4.8036413, z: -0.7880394}
+      rotation: {x: 7.058955e-12, y: 1, z: -0.0000018099951, w: 0.0000036517765}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: ar_2_slider_eject
+      parentName: group1
+      position: {x: -1.055717, y: 4.4511185, z: -0.75058717}
+      rotation: {x: 7.058955e-12, y: 1, z: -0.0000018099951, w: 0.0000036517765}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: SimpleMilitary
+      parentName: Character01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FemaleMedic_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GasMask_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JungleCommando_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Medic_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: -0.01094352, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mercenary_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Officer_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0.039513398, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldier_01_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldier_02_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldier_03_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SpecialForces_01_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SpecialForces_02_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SpecialForces_03_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SpecialForces_04_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terrorist_01_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terrorist_02_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terrorist_03_mesh
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_jnt
+      parentName: SimpleMilitary
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips_jnt
+      parentName: Root_jnt
+      position: {x: -0, y: 1.0449876, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2597436, w: 0.9656776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_Right_jnt
+      parentName: Hips_jnt
+      position: {x: 0.12763838, y: -0.22304337, z: 0}
+      rotation: {x: -0.49918568, y: 0.8664699, z: 0.0057249973, w: -0.0032841142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerLeg_Right_jnt
+      parentName: UpperLeg_Right_jnt
+      position: {x: 0.374522, y: 2.4868996e-16, z: -1.0987412e-12}
+      rotation: {x: -0.70410997, y: -0.000030960506, z: 0.00005181963, w: 0.710091}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot_Right_jnt
+      parentName: LowerLeg_Right_jnt
+      position: {x: 0.388744, y: 8.197135e-12, z: -3.6907224e-11}
+      rotation: {x: -0.48351902, y: -0.511437, z: 0.51626563, w: -0.4879666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_Left_jnt
+      parentName: Hips_jnt
+      position: {x: -0.25698245, y: -1.4210854e-16, z: 0}
+      rotation: {x: -0.00013711104, y: -0.00008424717, z: 0.49917462, w: 0.8665014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerLeg_Left_jnt
+      parentName: UpperLeg_Left_jnt
+      position: {x: -0.37452164, y: -3.5527136e-17, z: -2.7105054e-22}
+      rotation: {x: -0.7075902, y: 0.000006446892, z: -0.0000061459123, w: 0.706623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot_Left_jnt
+      parentName: LowerLeg_Left_jnt
+      position: {x: -0.38874373, y: 1.2252568e-17, z: 7.3426066e-12}
+      rotation: {x: 0.5004223, y: 0.50042224, z: -0.49957308, w: 0.49958178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_jnt
+      parentName: Hips_jnt
+      position: {x: 0.009555898, y: 0.016478358, z: 0}
+      rotation: {x: 0, y: 0, z: 0.86650366, w: -0.49917075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine_jnt
+      parentName: Body_jnt
+      position: {x: -0.6703252, y: 1.488421e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -1.6657682e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_Left_jnt
+      parentName: Spine_jnt
+      position: {x: -0.21910845, y: -0.565232, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_Left_jnt
+      parentName: UpperArm_Left_jnt
+      position: {x: 0.471188, y: -2.842171e-16, z: 5.77041e-17}
+      rotation: {x: 0, y: -0, z: -2.4424907e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand_Left_jnt
+      parentName: LowerArm_Left_jnt
+      position: {x: 0.4403, y: 0, z: 5.39209e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_Right_jnt
+      parentName: Spine_jnt
+      position: {x: -0.21910845, y: 0.565232, z: 0}
+      rotation: {x: -0.7071068, y: 0.7071068, z: -8.659561e-17, w: -8.7157646e-33}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_Right_jnt
+      parentName: UpperArm_Right_jnt
+      position: {x: -0.47118998, y: 5.684342e-16, z: -5.770413e-17}
+      rotation: {x: 0, y: 0, z: 8.881784e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand_Right_jnt
+      parentName: LowerArm_Right_jnt
+      position: {x: -0.4403, y: -8.5265126e-16, z: -5.3921198e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_jnt
+      parentName: Spine_jnt
+      position: {x: -0.3106261, y: 6.897285e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -1.6653345e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat_jnt
+      parentName: Head_jnt
+      position: {x: -0.54227096, y: 1.2040834e-16, z: 0}
+      rotation: {x: 3.671046e-16, y: -1.4992199e-16, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

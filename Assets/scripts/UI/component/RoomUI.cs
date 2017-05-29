@@ -9,10 +9,10 @@ public class RoomUI : MonoBehaviour
     public Text RoomName;
 
 
-    public void Init(string name,int playerNumber)
+    public void Init(string name,int playerNumber,int maxPlayerNumber)
     {
         RoomName.text = name;
-        PlayerNumber.text = playerNumber.ToString();
+        PlayerNumber.text = playerNumber.ToString()+"/"+ maxPlayerNumber.ToString();
     }
     public void Init(string name)
     {

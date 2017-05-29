@@ -12,9 +12,16 @@ public class RoomPanel : BaseUI
 
     [SerializeField]
     private ScrollRect playerRect;//玩家list
-
     [SerializeField]
-    private PlayerUI PlayerUI;//玩家信息UI
+    private PlayerUI PlayerUI;//玩家信息UI预制体
+    [SerializeField]
+    private Text playerNumber;//当前玩家信息
+    [SerializeField]
+    private Button freshenButton;//刷新按钮
+    [SerializeField]
+    private Button beginGameButton;
+    [SerializeField]
+    private Button backButton;
     private List<MyNetLobbyPlayer> playerList;
     //private Dictionary<PlayerUI,MyNetLobbyPlayer> playerUIs;
     private MyNetManager netmanage;
@@ -26,14 +33,7 @@ public class RoomPanel : BaseUI
     }
     private float Ypos = 0;
 
-    protected override void OnUpdate(float deltaTime)
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Debug.Log("刷新");
-            Freshen();
-        }
-    }
+   
 
 
     /// <summary>
@@ -50,16 +50,29 @@ public class RoomPanel : BaseUI
     /// </summary>
     void Init()
     {
-
+        
         if (GameObject.FindObjectOfType<MyNetManager>())
         {
             netmanage = GameObject.FindObjectOfType<MyNetManager>();
+            netmanage.FrenshList();
+            freshenButton.onClick.AddListener(() => { Freshen(); });
+            beginGameButton.onClick.AddListener(() => { OnClinkBeginButton(); });
+            backButton.onClick.AddListener(() => { OnBack(); });
+            //netmanage.OnLoobyPlayerCreat += Freshen;
+            if (netmanage.IsHost ==true)
+            {
+                beginGameButton.interactable = true;
+            }
+            else
+            {
+                beginGameButton.interactable = false;
+            }
         }
         else
         {
             return;
         }
-        netmanage.Flash();
+       
         playerList = netmanage.LobbyPlayers;
         Debug.Log(netmanage.LobbyPlayers.Count);
 
@@ -74,22 +87,23 @@ public class RoomPanel : BaseUI
 
     private void Freshen()
     {
+        Ypos = 0;
         if (netmanage != null)
         {
-            netmanage.Flash();
+            netmanage.FrenshList();
             playerList = netmanage.LobbyPlayers;
             Debug.Log(playerList.Count);
             PlayerUI[] temp = playerRect.content.GetComponentsInChildren<PlayerUI>();
+            Debug.Log(temp.Length);
             for (int i = 0; i < temp.Length; i++)
             {
-                Destroy(temp[i]);
+                Destroy(temp[i].gameObject);
             }
-
-
             for (int i = 0; i < playerList.Count; i++)
             {
                 AddPlayer(playerList[i]);
             }
+            playerNumber.text = playerList.Count.ToString();
         }
     }
     public override EnumUIType getUIType()
@@ -116,4 +130,29 @@ public class RoomPanel : BaseUI
 
     }
 
+    /// <summary>
+    /// 开始游戏
+    /// </summary>
+    public void OnClinkBeginButton()
+    {
+        if (netmanage.IsHost)
+        {
+            netmanage.CheckReadyToBegin();
+        }
+    }
+
+    public void OnBack()
+    {
+        //if (netmanage.IsHost)
+        //{
+        //    netmanage.StopHost();
+        //}
+        //else
+        //{
+        //    netmanage.StopClient();
+        //}
+
+        netmanage.StopLobby();
+        
+    }
 }

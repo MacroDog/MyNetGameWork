@@ -32,6 +32,7 @@ public class PlayerUI : MonoBehaviour
         {
             ChangeButton.interactable=false;
             ReadyButton.interactable=false;
+            ReadyButton.GetComponentInChildren<Text>().text = "未准备";
         }
         else
         {
@@ -100,6 +101,9 @@ public class PlayerUI : MonoBehaviour
         
     }
 
-
+    void OnDestroy ()
+    {
+        Player.Refresh -= Refresh;
+    }
 
 }

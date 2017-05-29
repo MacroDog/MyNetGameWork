@@ -25,7 +25,8 @@ public enum EnumUIType : int
     LobbyMianPanel=0,
     ServerRoomListPanel=1,
     RoomPanel=2,
-    CharacterChoosePanel=3
+    CharacterChoosePanel=3,
+    ConnetInfoPanel=4
 }
 public enum EnumSceneType
 {
@@ -73,6 +74,9 @@ public static class UIPathDefines
             case EnumUIType.CharacterChoosePanel:
                 _path = UI_PREFAB + "CharacterChoosePanel";
                 break;
+            case EnumUIType.ConnetInfoPanel:
+                _path = UI_PREFAB + "ConnetInfoPanel";
+                break;
             default:
                 break;
         }
@@ -97,6 +101,7 @@ public static class UIPathDefines
             case EnumUIType.CharacterChoosePanel:
                 _scriptType = typeof(CharacterChoosePanel);
                 break;
+           
             default:
                 Debug.Log("Not Find EnumUIType! type" + _uiType.ToString());
                 break;

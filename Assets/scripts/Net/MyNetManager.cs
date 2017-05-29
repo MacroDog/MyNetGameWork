@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Networking.Match;
-
+using System;
 public class MyNetManager :NetworkLobbyManager
 {
 
@@ -31,7 +31,17 @@ public class MyNetManager :NetworkLobbyManager
     //    NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
     //}
 
-    List<MyNetLobbyPlayer> lobbyPlayers;
+    //public Action OnLoobyPlayerCreat;
+    public bool isMatch = false;
+   
+    private bool isHost = false;//是否是主机
+    public bool IsHost 
+    {
+        get{
+            return isHost;
+        }
+    }
+    List<MyNetLobbyPlayer> lobbyPlayers=new List<MyNetLobbyPlayer> ();
     public List<MyNetLobbyPlayer> LobbyPlayers
     {
         get
@@ -41,25 +51,10 @@ public class MyNetManager :NetworkLobbyManager
     }
     public override GameObject OnLobbyServerCreateLobbyPlayer(NetworkConnection conn, short playerControllerId)
     {
-        lobbyPlayers =new List<MyNetLobbyPlayer>();
         Debug.Log("Creat looby player");
         var temp = Instantiate(lobbyPlayerPrefab.gameObject) as GameObject;
         return temp;
     }
-    public override void OnLobbyClientConnect(NetworkConnection conn)
-    {
-        lobbyPlayers = new List<MyNetLobbyPlayer>(GameObject.FindObjectsOfType<MyNetLobbyPlayer>());
-
-        base.OnLobbyClientConnect(conn);
-        Debug.Log(lobbyPlayers.Count);
-
-    }
-    public override void OnLobbyClientAddPlayerFailed()
-    {
-       
-        base.OnLobbyClientAddPlayerFailed();
-    }
-
     /// <summary>
     /// 产生角色
     /// </summary>
@@ -78,11 +73,16 @@ public class MyNetManager :NetworkLobbyManager
             }
         }
         Debug.Log("Creat Player netid="+ palyer.GetComponent<NetworkIdentity>().netId+" "+ palyer.name);
-      
+       
         return palyer;
     }
-
     
+    public override void OnLobbyClientExit()
+    {
+        base.OnLobbyClientExit();
+        FrenshList();
+        isMatch = false;//退出匹配
+    }
     public override void OnLobbyClientSceneChanged(NetworkConnection cont)
     {
         //Debug.Log("change");
@@ -97,6 +97,7 @@ public class MyNetManager :NetworkLobbyManager
     public override void OnMatchCreate(bool success, string extendedInfo, MatchInfo matchInfo)
     {
         base.OnMatchCreate(success, extendedInfo, matchInfo);
+        isMatch = false;
         //TryToAddPlayer();
         Debug.Log("OnMatchCreate");
         UIManager.Instance.OpenUICloseOthers(EnumUIType.RoomPanel);
@@ -110,16 +111,28 @@ public class MyNetManager :NetworkLobbyManager
     {
         base.OnStartHost();
         Debug.Log("主机创建完成房间");
+        isHost = true;
        
     }
-    
-    public void Flash()
+    public void FrenshList()
     {
         lobbyPlayers = new List<MyNetLobbyPlayer>(GameObject.FindObjectsOfType<MyNetLobbyPlayer>());
-        Debug.Log(lobbyPlayers.Count);
     }
+    public void StopLobby()
+    {
+        if (IsHost)
+        {
+            StopHost();
+        }
+        else
+        {
+            StopClient();
+        }
+    }
+   
     
-
+    
+    
 
 
 }

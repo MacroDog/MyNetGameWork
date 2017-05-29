@@ -10,6 +10,9 @@ public class NetPlayerSetting : NetworkBehaviour
     Behaviour[] ComponentsToDisable;
     [SerializeField]
     Camera sceneCamera;
+    [SerializeField]
+
+    private GameObject[] modle; 
    // public NetPlayer user = null;
    
     void Start()
@@ -49,5 +52,17 @@ public class NetPlayerSetting : NetworkBehaviour
             ComponentsToDisable[i].enabled = false;
 
         }
+    }
+
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
+        string _netID = this.GetComponent<NetworkIdentity>().netId.ToString();
+        NetCharacter _player = GetComponent<NetCharacter>();
+        GameManager.Instance.RegisterPlayer(_netID, _player);
+    }
+    void OnDisable()
+    {
+        GameManager.Instance.RemovePlayer(GetComponent<NetworkIdentity>().netId.ToString());
     }
 }

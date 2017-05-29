@@ -76,16 +76,19 @@ public class MyNetLobbyPlayer : NetworkLobbyPlayer
     /// </summary>
     public void OnClientReady()
     {
+       
         if (readyToBegin)
         {
             SendNotReadyToBeginMessage();
-            Refresh(name, characterID, false);
+           
+            
         }
         else
         {
             SendReadyToBeginMessage();
+            
         }
-        
+        Refresh(name, characterID, readyToBegin);
         
     }
 }
